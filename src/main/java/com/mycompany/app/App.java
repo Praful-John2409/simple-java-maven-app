@@ -11,9 +11,6 @@ public class App {
 
     public static void main(String[] args) {
         System.out.println(MESSAGE);
-        Greeter greeter = new Greeter();
-        String greeting = greeter.greet("World");
-        System.out.println(greeting);
     }
 
     public String getMessage() {
